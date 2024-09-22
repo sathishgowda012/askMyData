@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.home-company-header {
+  color: blue;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.sign-up-title {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-top: 0.5rem;
+  color: #1d4ed8;
+}
+
+.text-sm {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+.text-color-opacity-1 {
+  color: #64748b;
+}
+
+.sign-up-buttons {
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .15s;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  gap: .5rem;
+  white-space: nowrap;
+  margin: 10px 0px;
+  justify-content: center;
+}
+
+
+/* borders */
+
+.input-border{
+  border: 1px solid #c9cace;
+}
+
+.sign-list{
+  li{
+    margin: 5px 0px;
+  }
+}
+
+/* border-radius */
+
+/* text-font */
+
