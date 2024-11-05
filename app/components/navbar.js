@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 <div>
 
-                    
+
                     <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 cursor-pointer mr-2"
                         onClick={toggleModal}>
                         Sign Up
